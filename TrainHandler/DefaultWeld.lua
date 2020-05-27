@@ -1,3 +1,5 @@
+--RE Precision Weld Module.
+
 local weld = {}
 
 function weld.MakeWeld(part1, part2)
