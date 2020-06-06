@@ -65,16 +65,15 @@ local function IsKeyDownAnalog(inputObject)
 end
 
 --//VALUE CREATION
---//  VARIABLE								 VALUE NAME					PARENT				VALUE TYPE
-local SpeedValue = 				GetOrCreate("Speed", 					Environment.Values, "NumberValue")
-local AccelerationValue =		GetOrCreate("Acceleration", 			Environment.Values, "NumberValue")
-local ThrottleLeverValue = 		GetOrCreate("ThrottleLeverPosition", 	Environment.Values, "NumberValue")
-local BrakeLeverValue = 		GetOrCreate("BrakeLeverPosition", 		Environment.Values, "NumberValue")
-local PowerValue = 				GetOrCreate("PowerPercentage", 			Environment.Values, "NumberValue")
-local BrakeValue = 				GetOrCreate("BrakePercentage", 			Environment.Values, "NumberValue")
-local PowerTargetValue = 		GetOrCreate("PowerTargetPercentage", 	Environment.Values, "NumberValue")
-local BrakeTargetValue = 		GetOrCreate("BrakeTargetPercentage", 	Environment.Values, "NumberValue")
-local CabIndex = 				GetOrCreate("CabIndex",					Environment.Values, "NumberValue")
+local SpeedValue = GetOrCreate("Speed", Environment.Values, "NumberValue")
+local AccelerationValue = GetOrCreate("Acceleration", Environment.Values, "NumberValue")
+local ThrottleLeverValue = GetOrCreate("ThrottleLeverPosition", Environment.Values, "NumberValue")
+local BrakeLeverValue = GetOrCreate("BrakeLeverPosition", Environment.Values, "NumberValue")
+local PowerValue = GetOrCreate("PowerPercentage", Environment.Values, "NumberValue")
+local BrakeValue = GetOrCreate("BrakePercentage", Environment.Values, "NumberValue")
+local PowerTargetValue = GetOrCreate("PowerTargetPercentage", Environment.Values, "NumberValue")
+local BrakeTargetValue = GetOrCreate("BrakeTargetPercentage", Environment.Values, "NumberValue")
+local CabIndex = GetOrCreate("CabIndex", Environment.Values, "NumberValue")
 
 --//OTHER FUNCTIONS
 local function BindCamera()
